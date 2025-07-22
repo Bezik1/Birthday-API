@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: demo-app
-    env: java
-    buildCommand: ./mvnw clean install
-    startCommand: java -jar target/demo-1.0.0.jar
-    envVars:
-      - key: SPRING_DATA_MONGODB_URI
-        value: <twój-uri-do-mongodb>
